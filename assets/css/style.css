@@ -45,6 +45,7 @@ main {
     background-color: #FFE0C4;
     flex: 1 0 auto;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 41px;
 }
 
 footer {

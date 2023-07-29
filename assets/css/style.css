@@ -51,9 +51,9 @@ main {
 /*Hero Section*/
 
 #hero {
-    height: 600px;
+    height: 850px;
     width: 100%;
-    background-color: #FFE0C4;
+    background: url("../images/crystals-sitting-woman.jpg") no-repeat center center/cover;
 }
 
 footer {

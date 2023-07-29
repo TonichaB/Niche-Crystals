@@ -61,6 +61,11 @@ main {
 #cover-text {
     background-color: rgba(148, 84, 126, .7);
     font-size: 130%;
+    position: absolute;
+    bottom: 25px;
+    width: 70%;
+    min-height: 200px;
+    padding-top: 50px;
 }
 
 footer {
@@ -162,6 +167,11 @@ nav {
 
     main {
         margin-top: 67px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 

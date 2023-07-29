@@ -15,6 +15,15 @@ body {
 
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Pontano Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #252525;
+}
+
 header {
     background-color: #94547E;
     font-family: 'Pontano Sans', sans-serif;
@@ -34,13 +43,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Pontano Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #252525;
-}
-
 main {
 
     flex: 1 0 auto;
@@ -54,6 +56,11 @@ main {
     height: 850px;
     width: 100%;
     background: url("../images/crystals-sitting-woman.jpg") no-repeat center center/cover;
+}
+
+#cover-text {
+    background-color: rgba(148, 84, 126, .7);
+    font-size: 130%;
 }
 
 footer {

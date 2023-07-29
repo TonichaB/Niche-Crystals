@@ -127,6 +127,11 @@ nav {
 
     #logo {
         font-size: 280%;
-        line-height: 52px;
+        line-height: 62px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 67px;
     }
 }

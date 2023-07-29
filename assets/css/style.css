@@ -17,14 +17,17 @@ body {
 
 header {
     background-color: #94547E;
+    font-family: 'Pontano Sans', sans-serif;
 }
 
 main {
     background-color: #FFE0C4;
     flex: 1 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 footer {
     background-color: #F58EA1;
     align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
 }

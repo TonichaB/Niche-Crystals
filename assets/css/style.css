@@ -8,7 +8,7 @@
 /*General Styles */
 
 body {
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #94547E;
@@ -26,5 +26,5 @@ main {
 
 footer {
     background-color: #F58EA1;
-
+    align-items: flex-end;
 }

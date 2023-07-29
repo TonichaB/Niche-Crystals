@@ -52,4 +52,17 @@ footer {
 
 /* navigation styling */
 
-#menu {}
+#menu {
+    letter-spacing: 3px;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1rem;
+}
+
+.active {
+    border-bottom: 1px solid;
+    color: #3a3a3a;
+}

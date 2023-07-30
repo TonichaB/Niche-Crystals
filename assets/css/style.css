@@ -222,10 +222,21 @@ p {
         width: 400px;
         right: 50px;
     }
-    #history-image {
-    display: flex;
-    align-items: left;
-    justify-content: left;
+
+    #why-are-crystals-used, #how-are-crystals-used {
+        display:flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    #why-are-crystals-used > div, #how-are-crystals-used > div {
+        width: 100%;
+    }
+
+    #why-are-crystals-used >div {
+        text-align:end;
+        align-self: flex-end;
+
     }
 }
 
@@ -234,4 +245,12 @@ p {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+@media screen and (min-width: 1200px) {    
+    #why-are-crystals-used {
+        display:flex;
+        flex-direction: row;
+    }
+
 }

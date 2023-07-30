@@ -156,6 +156,32 @@ p {
     line-height:20px;
     margin: 20px;
 }
+
+#circle-cover-bg {
+    background: url("../images/crystals-history.jpeg") no-repeat top center/cover;
+    height: 50vw;
+    width: 50vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width:300px;
+    max-height:300px;
+}
+
+#circle-image-bg {
+    background: url("../images/woman-burning-sage.jpeg") no-repeat top center/cover;
+    height: 50vw;
+    width: 50vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width:300px;
+    max-height:300px;
+}
+
+#history-image, #meditation-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Media Queries */
 
 /*Media Queries, tablets and larger */
@@ -195,6 +221,11 @@ p {
     #cover-text {
         width: 400px;
         right: 50px;
+    }
+    #history-image {
+    display: flex;
+    align-items: left;
+    justify-content: left;
     }
 }
 

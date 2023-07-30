@@ -133,6 +133,29 @@ nav {
     color: #FFE0C4;
 }
 
+#introduction {
+    font-size: 200%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#why-are-crystals-used {
+    line-height:20px;
+    margin: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+p {
+    padding 0 20px;
+}
+#how-are-crystals-used {
+    line-height:20px;
+    margin: 20px;
+}
 /* Media Queries */
 
 /*Media Queries, tablets and larger */

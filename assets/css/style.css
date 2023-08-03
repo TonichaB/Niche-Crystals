@@ -79,6 +79,11 @@ main {
     line-height: 0;
 }
 
+#video {
+    text-align: center;
+}
+
+/*footer style*/
 footer {
     background-color: #F58EA1;
     align-items: flex-end;
@@ -267,7 +272,7 @@ p {
     }
 
     #photos {
-        column-count: 3;
+        column-count: 2;
         column-gap: 0;
     }
 }

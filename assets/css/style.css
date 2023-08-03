@@ -200,6 +200,15 @@ p {
 
 /* Media Queries */
 
+/* Media Queries, for landscape or larger mobiles */
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /*Media Queries, tablets and larger */
 
 @media screen and (min-width: 768px) {
@@ -256,12 +265,22 @@ p {
         align-self: flex-end;
 
     }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 
 /* Media Queries, latops and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
     }
 }
 

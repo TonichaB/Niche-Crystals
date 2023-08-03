@@ -68,6 +68,17 @@ main {
     padding-top: 50px;
 }
 
+/*gallery page*/
+
+#photos img {
+    width: 100%;
+    line-height: 1rem;
+}
+
+#photos {
+    line-height: 0;
+}
+
 footer {
     background-color: #F58EA1;
     align-items: flex-end;
@@ -135,13 +146,14 @@ nav {
 
 #introduction {
     font-size: 200%;
-    margin:auto;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
+
 #why-are-crystals-used {
-    line-height:20px;
+    line-height: 20px;
     margin: 20px;
 }
 
@@ -149,11 +161,13 @@ hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
 p {
     padding 0 20px;
 }
+
 #how-are-crystals-used {
-    line-height:20px;
+    line-height: 20px;
     margin: 20px;
 }
 
@@ -163,8 +177,8 @@ p {
     width: 50vw;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width:300px;
-    max-height:300px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #circle-image-bg {
@@ -173,15 +187,17 @@ p {
     width: 50vw;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width:300px;
-    max-height:300px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
-#history-image, #meditation-image {
+#history-image,
+#meditation-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 /* Media Queries */
 
 /*Media Queries, tablets and larger */
@@ -223,18 +239,20 @@ p {
         right: 50px;
     }
 
-    #why-are-crystals-used, #how-are-crystals-used {
-        display:flex;
+    #why-are-crystals-used,
+    #how-are-crystals-used {
+        display: flex;
         flex-direction: column;
         width: 95%;
     }
 
-    #why-are-crystals-used > div, #how-are-crystals-used > div {
+    #why-are-crystals-used>div,
+    #how-are-crystals-used>div {
         width: 100%;
     }
 
-    #why-are-crystals-used >div {
-        text-align:end;
+    #why-are-crystals-used>div {
+        text-align: end;
         align-self: flex-end;
 
     }
@@ -247,9 +265,9 @@ p {
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
     #why-are-crystals-used {
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 

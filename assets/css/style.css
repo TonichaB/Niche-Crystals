@@ -55,7 +55,7 @@ main {
 #hero {
     height: 850px;
     width: 100%;
-    background: url("../images/crystals-sitting-woman.jpg") no-repeat center center/cover;
+    background: url("../images/crystals-sitting-woman.webp") no-repeat center center/cover;
 }
 
 #cover-text {
@@ -177,7 +177,7 @@ p {
 }
 
 #circle-cover-bg {
-    background: url("../images/crystals-history.jpeg") no-repeat top center/cover;
+    background: url("../images/crystals-history.webp") no-repeat top center/cover;
     height: 50vw;
     width: 50vw;
     margin-bottom: 20px;
@@ -187,7 +187,7 @@ p {
 }
 
 #circle-image-bg {
-    background: url("../images/woman-burning-sage.jpeg") no-repeat top center/cover;
+    background: url("../images/woman-burning-sage.webp") no-repeat top center/cover;
     height: 50vw;
     width: 50vw;
     margin-bottom: 20px;

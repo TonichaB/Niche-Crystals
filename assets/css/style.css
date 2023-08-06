@@ -99,6 +99,16 @@ main {
     
 }
 
+.text-input {
+    background: transparent;
+    color: #3a3a3a;
+    width: 50%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    padding: 0 5px;
+}
 /*footer style*/
 footer {
     background-color: #F58EA1;

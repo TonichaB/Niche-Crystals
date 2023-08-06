@@ -324,6 +324,9 @@ p {
         column-count: 3;
         column-gap: 0;
     }
+    #signup-form {
+    margin-left: 400px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -331,5 +334,17 @@ p {
         display: flex;
         flex-direction: row;
     }
-
+    #signup-form {
+    margin-left: 700px;
+    }
+}
+/* 4k screens */
+@media screen and (min-width: 2500px) {
+    #why-are-crystals-used {
+        display: flex;
+        flex-direction: row;
+    }
+    #signup-form {
+    margin-left: 1000px;
+    }
 }

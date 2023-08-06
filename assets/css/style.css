@@ -83,6 +83,16 @@ main {
     text-align: center;
 }
 
+/* Sign up page */
+#sign-up {
+    background-color: #37C3D4;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
 /*footer style*/
 footer {
     background-color: #F58EA1;

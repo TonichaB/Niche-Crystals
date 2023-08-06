@@ -87,17 +87,22 @@ main {
 
 /* Sign up page */
 #sign-up {
-    background-image: url("../images/citrine-crystals-outside.webp");
+    background-image: url("../images/pink-crystal-white-table.webp");
     background-size: cover;
     background-position: 75%;
     background-repeat: no-repeat;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    text-align: right;
+    text-align: center;
 }
 
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(245, 142, 161, 0.75);
+    padding: 30px;
+}
 #signup-form>h2 {
-    color: #3a3a3a;
+    color: #ffffff;
     margin-bottom: 20px;
     
 }
@@ -108,7 +113,7 @@ main {
     width: 50%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #3a3a3a;
+    border: 1px solid #ffffff;
     border-radius: 2px;
     padding: 0 5px;
 }
@@ -243,6 +248,7 @@ p {
         column-count: 2;
         column-gap: 0;
     }
+
 }
 
 /*Media Queries, tablets and larger */

@@ -48,6 +48,8 @@ main {
     flex: 1 0 auto;
     font-family: 'Montserrat', sans-serif;
     margin-top: 41px;
+    display:flex;
+    flex-direction: column;
 }
 
 /*Hero Section*/
@@ -85,12 +87,13 @@ main {
 
 /* Sign up page */
 #sign-up {
-    background-color: #37C3D4;
+    background-image: url("../images/citrine-crystals-outside.webp");
     background-size: cover;
     background-position: 75%;
+    background-repeat: no-repeat;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-    text-align: center;
+    text-align: right;
 }
 
 #signup-form>h2 {
@@ -109,6 +112,8 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
+
+
 /*footer style*/
 footer {
     background-color: #F58EA1;

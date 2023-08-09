@@ -112,7 +112,7 @@ main {
 .text-input {
     background: transparent;
     color: #3a3a3a;
-    width: 50%;
+    width: 200px;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #ffffff;
@@ -345,6 +345,10 @@ p {
         column-count: 2;
         column-gap: 0;
     }
+
+    .text-input {
+        width: 300px;
+    }
 }
 
 /* Media Queries, latops and larger */
@@ -373,6 +377,10 @@ p {
     #how-are-crystals-used {
         display: flex;
         flex-direction: row;
+    }
+
+    .text-input {
+        width: 400px;
     }
 }
 

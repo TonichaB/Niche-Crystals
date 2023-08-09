@@ -68,7 +68,7 @@ main {
     width: 70%;
     min-height: 200px;
     padding-top: 50px;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 /*gallery page*/
@@ -128,7 +128,7 @@ main {
     color: #ffffff;
     border: 2px solid #ffffff;
     cursor: pointer;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .reset-button {
@@ -141,15 +141,17 @@ main {
     cursor: pointer;
 
 }
+
 .reset-button:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(2px);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
 }
 
 .join-button:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(2px);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
 }
+
 /*footer style*/
 footer {
     background-color: #F58EA1;
@@ -381,5 +383,14 @@ p {
 
     #signup-form {
         margin-left: 1000px;
+    }
+
+    #cover-text {
+        position: relative;
+        margin-left: 2000px;
+        margin-top: 600px;
+        width: 600px;
+        padding-left: 15px;
+        font-size: 200%;
     }
 }

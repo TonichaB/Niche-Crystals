@@ -237,7 +237,7 @@ hr {
 }
 
 p {
-    padding 0 20px;
+    padding: 0 20px;
 }
 
 #how-are-crystals-used {
@@ -361,25 +361,31 @@ p {
     #signup-form {
         margin-left: 400px;
     }
-}
 
-@media screen and (min-width: 1200px) {
     #why-are-crystals-used {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    #how-are-crystals-used {
         display: flex;
         flex-direction: row;
     }
+}
 
+/*Media Queries, larger laptop screens */
+@media screen and (min-width: 1200px) {
     #signup-form {
         margin-left: 700px;
     }
+
 }
 
 /* 4k screens */
 @media screen and (min-width: 2500px) {
-    #why-are-crystals-used {
-        display: flex;
-        flex-direction: row;
-    }
 
     #signup-form {
         margin-left: 1000px;
@@ -388,9 +394,10 @@ p {
     #cover-text {
         position: relative;
         margin-left: 2000px;
-        margin-top: 600px;
+        margin-top: 500px;
         width: 600px;
         padding-left: 15px;
         font-size: 200%;
+        height: 300px;
     }
 }

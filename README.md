@@ -68,3 +68,42 @@ Through the use of media queries within the CSS code, the website is adaptable t
 The footer of the site includes social media links that are intended to take the user to a group page they can join as an initial pathway to learn more. The final page also includes an easy to complete sign up form for a monthly newsletter containing more information about crystals and upcoming events accross the UK. The sign up form asks the user how they hope crystals can help them to allow for personalisation of the newsletters to ensure future content is user specific.
 
 ---
+
+# Design
+
+### Colour Scheme
+
+![colour scheme image](X)
+The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also represented in the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
+
+### Typogrophy
+
+The Niche Crystals site contains two fonts, Pontano Sans for the header of eage page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are also clear and easy to read to be more accesible for all users. Please see the two fonts shown below;
+![pontano sans font image](X)
+![montserrat font image](X)
+
+### Imagery
+
+The images chosen for the website have been selected due to their high quality on all screen sizes and their relevancy for the website. Most images are included within the gallery page, and have been selected to follow consistent stylings and sizes for a sleek appearance on the page. All images used on the website have also been formatted as WEBP documents as these provide to be 25% to 35% smaller than JPEG files resulting in quicker loading times for the user.
+
+## Wireframes
+
+Using Balsamiq during the planning stage of this build I was able to create wireframes for each page and mobile view to use as a guide when building the website.
+
+### Home Page
+
+![wireframe image of homepage](X)
+
+### Gallery Page
+
+![wireframe image of gallary page](X)
+
+### Sign Up Page
+
+![wireframe image of sign up page](X)
+
+### Mobile View
+
+![wireframe image of mobile view](X)
+
+---

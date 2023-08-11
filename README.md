@@ -37,6 +37,10 @@ Niche Crystals is an informative website for users who are interested in the the
     - How to Clone
 
 - Testing
+
+  - Validators
+  - Bug Fixes
+
 - Credits
   - Code Used
   - Content

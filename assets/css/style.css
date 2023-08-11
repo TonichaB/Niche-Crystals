@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #94547E;
+    background-color: #B973AD;
 
 }
 
@@ -58,6 +58,8 @@ main {
     height: 850px;
     width: 100%;
     background: url("../images/crystals-sitting-woman.webp") no-repeat center center/cover;
+    margin: auto;
+    padding: 0;
 }
 
 #cover-text {
@@ -84,6 +86,10 @@ main {
 
 #video {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
 }
 
 /* Sign up page */

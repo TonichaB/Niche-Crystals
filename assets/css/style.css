@@ -95,11 +95,19 @@ main {
 }
 
 #video {
+    background-color: #B973AD;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    padding: 0px;
+    margin: 0px auto 0px auto;
     width: 100%;
+    max-width: 520px;
     height: auto;
+    border: 1px solid #B973AD;
+}
+
+#video video {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Sign up page */

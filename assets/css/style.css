@@ -73,6 +73,15 @@ main {
     margin-left: 10px;
 }
 
+/*homepage content*/
+#history-image {
+    margin-top: 50px;
+}
+
+#meditation-image {
+    margin-top: 50px;
+}
+
 /*gallery page*/
 
 #photos img {
@@ -86,7 +95,7 @@ main {
 
 #video {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
     width: 100%;
     height: auto;
@@ -334,6 +343,7 @@ p {
         display: flex;
         flex-direction: column;
         width: 95%;
+        margin-bottom: 50px;
     }
 
     #why-are-crystals-used>div,
@@ -351,6 +361,7 @@ p {
         column-count: 2;
         column-gap: 0;
     }
+
 
     .text-input {
         width: 300px;
@@ -386,7 +397,7 @@ p {
     }
 
     .text-input {
-        width: 400px;
+        width: 300px;
     }
 }
 

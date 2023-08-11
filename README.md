@@ -71,18 +71,18 @@ The footer of the site includes social media links that are intended to take the
 
 # Design
 
-### Colour Scheme
+## Colour Scheme
 
 ![colour scheme image](X)
 The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also represented in the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
 
-### Typogrophy
+## Typogrophy
 
 The Niche Crystals site contains two fonts, Pontano Sans for the header of eage page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are also clear and easy to read to be more accesible for all users. Please see the two fonts shown below;
 ![pontano sans font image](X)
 ![montserrat font image](X)
 
-### Imagery
+## Imagery
 
 The images chosen for the website have been selected due to their high quality on all screen sizes and their relevancy for the website. Most images are included within the gallery page, and have been selected to follow consistent stylings and sizes for a sleek appearance on the page. All images used on the website have also been formatted as WEBP documents as these provide to be 25% to 35% smaller than JPEG files resulting in quicker loading times for the user.
 
@@ -107,3 +107,51 @@ Using Balsamiq during the planning stage of this build I was able to create wire
 ![wireframe image of mobile view](X)
 
 ---
+
+# Features
+
+## General Features Per Page
+
+## Future Implementations
+
+## Accessibility
+
+---
+
+# Technologies Used
+
+## Languages Used
+
+## Frameworks, Libraries and Programs Used
+
+---
+
+# Deployment and Local Development
+
+## Deployment
+
+## Local Deployment
+
+### How to Fork
+
+### How to Clone
+
+---
+
+# Testing
+
+## Validators
+
+## Bug Fixes
+
+---
+
+# Credits
+
+## Code Used
+
+## Content
+
+## Media
+
+## Acknowledgements

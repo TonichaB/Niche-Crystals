@@ -110,7 +110,34 @@ Using Balsamiq during the planning stage of this build I was able to create wire
 
 # Features
 
-## General Features Per Page
+## General Features
+
+### Navigation Bar
+
+Within the head of the page I've included a responsive navbar changing from text in desktop view to a hamburger menu drop down in mobile view. The navbar shows the current page by underlining the relevant text with a lighter font colour.
+
+#### Desktop View
+
+![navbar desktop image](X)
+
+#### Mobile View
+
+![navbar mobile image](X)
+
+### Landing Page
+
+The Landing Page for Niche Crystals opens with a high quality image of crystals with text overlay as a brief introduction to the site. The user is able to scroll down to view the main content offering information regarding the origins of crystals and their uses. For desktop users the main content is shown with images and text alongside one another and alternating positions for each text subject. Each subject includes a link to the sign up page encouraging users to sign up for more information.
+![landing page image](X)
+
+### Gallery Page
+
+The Gallery Page of the website providss users with relevant images laid out in a responsive mosaic tile gallery to show the different ways in which crystals can be used. Towards the end of the page there is also a video showing a crystal being cleansed through the smudging method to give a visual representation on the use of crystals. This page is valuable to the users as it compliments the textual information given from the Landing Page.
+![gallery page image](X)
+
+### Sign Up Page
+
+The final page of the website includes a sign up form allowing the user to sign up for a monthly newsletter, tailored to them, with further information regarding crystal practices and maintenance. The user can specify how they intend to use crystals alongside submitting their full name and email address to then submit the form. At this time there is no backend service connected to the website as this is not currently withint the scope of this project; with this in mind once a user has completed the form a template formdump page provided by Code Institute. If the form is incorrectly completed pop ups will appear to advise the user of the form requirements.
+![sign up page image](X)
 
 ## Future Implementations
 

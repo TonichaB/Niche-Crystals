@@ -263,17 +263,25 @@ Testing was also completed on the following devices to confirm the responsivenes
 - Samsung S21 FE mobile
 - Ipad Pro
 
-|Feature|Expected Outcome|Testing Performed|Result|Pass/Fail|
-| ==---== | ==---== | ==---== | ==---== | ==---== |
-|Niche Crystals Title|When clicked the user should return to the home page|Clicked title|Redirected to Home Page|Pass|
-|Hamburger Navbar|When selected the navbar should drop down to reveal website pages|Selected Hamburger Icon|Dropdown menu of webpages appears|Pass|
-|Home Page Link|When selected the user will be redirected to the home page|Clicked Link|Redirected to Home Page|Pass|
-|Gallery Page Link|When selected the user will be redirected to the gallery page|Clicked Link|Redirected to Gallery Page|Pass|
-|Sign Up Page Link|When selected the user will be redirected to the sign up page|Clicked Link|Redirected to Sign Up Page|Pass|
-|Social Icons|When clicked a new tab will open for the appropriate social media page|Clicked Icons|New tab opens for each social media website|Pass|
-|Embedded Video|Video does not autoplay and can be controlled by user|Clicked play button|Video plays|Pass|
-|Sign Up Form|If fields left empty or completed incorrectly a message should notify user of the error|Clicked submit with form in various stages of completeness|Form requested the sections to be correctly completed|Pass|
-|Reset Button|Compeleted form should reset and clear all fields|Clicked reset button|Form reset to start|Pass|
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| :---:| :---: | :---: | :---: | :---: |
+|**Navigation Bar**|
+|  |  |  |  |  |
+| Niche Crystals Title | When clicked the user should return to the home page | Clicked title | Redirected to Home Page | Pass |
+| Hamburger Navbar | When selected the navbar should drop down to reveal website pages | Selected Hamburger Icon | Dropdown menu of webpages appears | Pass |
+| Home Page Link | When selected the user will be redirected to the home page |Clicked Link | Redirected to Home Page | Pass |
+| Gallery Page Link | When selected the user will be redirected to the gallery page | Clicked Link | Redirected to Gallery Page | Pass |
+| Sign Up Page Link | When selected the user will be redirected to the sign up page | Clicked Link | Redirected to Sign Up Page | Pass |
+|**Footer**|
+|  |  |  |  |  |
+| Social Icons | When clicked a new tab will open for the appropriate social media page | Clicked Icons | New tab opens for each social media website | Pass |
+|**Embedded Video**|
+|  |  |  |  |  |
+| Embedded Video | Video does not autoplay and can be controlled by user | Clicked play button|Video plays | Pass |
+|**Sign Up Page**|
+|  |  |  |  |  |
+| Sign Up Form | If fields left empty or completed incorrectly a message should notify user of the error | Clicked submit with form in various stages of completeness | Form requested the sections to be correctly completed | Pass |
+| Reset Button | Compeleted form should reset and clear all fields | Clicked reset button | Form reset to start | Pass |
 
 ## Bug Fixes
 

@@ -140,8 +140,13 @@ The final page of the website includes a sign up form allowing the user to sign 
 ![sign up page image](X)
 
 ## Future Implementations
-
+An initial future feature could be further compression or reselection of gallery images to improve the performance levels to be more reliable on devices with varying performance levels. Using the Google Lighthouse Developer Tool I was able to see the webpage performance on the gallery page was less reliable than the other pages on the site.
+A broader goal for future implementations would be the inclusion of an Store page allowing the website owner to offer relative products for the user to purchase, such as crystals, jewellry and further reading materials.
 ## Accessibility
+To provide accessibility to the website the following has been incorporated;
+- Aria-labels, alt tags and labels have been used for supportive technologies such as screen readers. 
+- Semantic elements have been used for easy navigation through each page. 
+- The colour scheme selected is also made suitable for colour blind users.
 
 ---
 

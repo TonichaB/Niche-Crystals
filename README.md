@@ -139,22 +139,45 @@ The Gallery Page of the website providss users with relevant images laid out in 
 The final page of the website includes a sign up form allowing the user to sign up for a monthly newsletter, tailored to them, with further information regarding crystal practices and maintenance. The user can specify how they intend to use crystals alongside submitting their full name and email address to then submit the form. At this time there is no backend service connected to the website as this is not currently withint the scope of this project; with this in mind once a user has completed the form a template formdump page provided by Code Institute. If the form is incorrectly completed pop ups will appear to advise the user of the form requirements.
 ![sign up page image](X)
 
+### Page Footer
+
+The footer on eage page includes social media links for Facebook, Instagram, Pinterest and Twitter encouraging the user to stay connected through relative social groups. The links will open in a new tab to allow easy navigation for the user and avoiding any progress on the main website being lost.
+![page footer image](X)
+
 ## Future Implementations
+
 An initial future feature could be further compression or reselection of gallery images to improve the performance levels to be more reliable on devices with varying performance levels. Using the Google Lighthouse Developer Tool I was able to see the webpage performance on the gallery page was less reliable than the other pages on the site.
 A broader goal for future implementations would be the inclusion of an Store page allowing the website owner to offer relative products for the user to purchase, such as crystals, jewellry and further reading materials.
+
 ## Accessibility
+
 To provide accessibility to the website the following has been incorporated;
-- Aria-labels, alt tags and labels have been used for supportive technologies such as screen readers. 
-- Semantic elements have been used for easy navigation through each page. 
+
+- Aria-labels, alt tags and labels have been used for supportive technologies such as screen readers.
+- Semantic elements have been used for easy navigation through each page.
 - The colour scheme selected is also made suitable for colour blind users.
 
 ---
 
 # Technologies Used
 
+The following technologies have been utilised in the production of this website;
+
+- HTML5
+- CSS
+- Javascript (font awesome)
+- GitHub
+- GitHub Pages
+- Codeanywhere
+- Font Awesome
+- Favicon Generator Website
+- Google Chrome
+- Convertio Website
+- Python
+
 ## Languages Used
 
-## Frameworks, Libraries and Programs Used
+HTML, CSS, Javascript
 
 ---
 
@@ -162,11 +185,27 @@ To provide accessibility to the website the following has been incorporated;
 
 ## Deployment
 
+Niche Crystals has been deployed onto Git Pages.
+
 ## Local Deployment
 
 ### How to Fork
 
+If you would like to fork the repository:
+
+1. Log in (or sign up) to your account on GitHub.
+2. Go to the repository for this project- /TonichaB/Niche-Crystals/
+3. Click on the Fork button in the top right corner.
+
 ### How to Clone
+
+If you would like to clone this repository:
+
+1. Log in (or sign up) to your account on GitHub.
+2. Go to the repository for this project- /TonichaB/Niche-Crystals/
+3. Click on the code button, and copy your preferred clone link.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and paste the link copied in step 3 above. Press enter.
 
 ---
 

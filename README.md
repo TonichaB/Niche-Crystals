@@ -88,14 +88,14 @@ The footer of the site includes social media links that are intended to take the
 
 ## Colour Scheme
 
-![colour scheme image](X)
+![colour scheme image](assets/images/colour-scheme-and-accesibility.webp)
 The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also represented in the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
 
 ## Typogrophy
 
 The Niche Crystals site contains two fonts, Pontano Sans for the header of eage page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are also clear and easy to read to be more accesible for all users. Please see the two fonts shown below;
-![pontano sans font image](X)
-![montserrat font image](X)
+![pontano sans font image](assets/images/Pontano-Sans-Font.webp)
+![montserrat font image](assets/images/Montserrat-font.webp)
 
 ## Imagery
 
@@ -237,7 +237,7 @@ If you would like to clone this repository:
 ### CSS Validator
 
 I have used the [W3C Css Validation Service]() to validate the CSS code which has passed with no errors;
-![css validation image](X)
+![css validation image](assets/images/CSS-validator-pass.webp)
 
 ### HTML Validator
 
@@ -245,15 +245,15 @@ I have used the [W3C HTML Checker]() to validate the HTML code for each page of 
 
 #### Home Page
 
-![home page validator image](X)
+![home page validator image](assets/images/HTML-validator-index.html-pass.webp)
 
 #### Gallery Page
 
-![gallery page validator image]()
+![gallery page validator image](assets/images/HTML-validator-gallery.html-pass.webp)
 
 #### Sign Up Page
 
-![signup page validator image]()
+![signup page validator image](assets/images/HTML-validator-sign-up.html-pass.webp)
 
 ### Lighthouse
 
@@ -261,15 +261,15 @@ I have also utilised the Chrome Lighthouse Developer Tool to check the performan
 
 #### Home Page
 
-![home page lighthouse image]()
+![home page lighthouse image](assets/images/index-page-lighthouse-performance.webp)
 
 #### Gallery Page
 
-![gallery page lighthouse image]()
+![gallery page lighthouse image](assets/images/gallery-lighthouse-performance.webp)
 
 #### Sign Up Page
 
-![signup page lighthouse image]()
+![signup page lighthouse image](assets/images/sign-up-lighthouse-performance.webp)
 
 Testing was also completed on the following devices to confirm the responsiveness of the site:
 
@@ -307,7 +307,7 @@ Niche Crystals has also been tested using the following browsers:
 ## Bug Fixes
 
 During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page:
-![cover text bug]()
+![cover text bug](assets/images/cover-text-bug.webp)
 I was able to fix this using a media query for the larger screens in the style.css file. I used the following code:
 `#cover-text {
         position: relative;
@@ -319,13 +319,13 @@ I was able to fix this using a media query for the larger screens in the style.c
         height: 300px;
     }`
 Providing the following result:
-![cover text solution]()
+![cover text solution](assets/images/cover-text-solution.webp)
 
 It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using `overflow-y: scroll;` within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further:
 Before:
-![scrollbar before image]()
+![scrollbar before image](assets/images/scrollbar-before.webp)
 After:
-![scrollbar after image]()
+![scrollbar after image](assets/images/scrollbar-after.webp)
 
 ---
 

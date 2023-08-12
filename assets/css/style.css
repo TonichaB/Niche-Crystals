@@ -22,7 +22,7 @@ h3 {
     font-family: 'Pontano Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #252525;
+    color: #000000;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #000000;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -121,6 +121,7 @@ main {
     text-align: center;
 }
 
+/*Sign Up Form */
 #signup-form {
     color: #ffffff;
     background-color: rgba(245, 142, 161, 0.75);
@@ -135,7 +136,7 @@ main {
 
 .text-input {
     background: transparent;
-    color: #3a3a3a;
+    color: #000000;
     width: 100%;
     height: 25px;
     box-sizing: border-box;
@@ -164,6 +165,7 @@ main {
     color: #F58EA1;
     border: 2px solid #F58EA1;
     cursor: pointer;
+    font-weight: bold;
 
 }
 
@@ -198,7 +200,7 @@ footer {
 
 .active {
     border-bottom: 1px solid;
-    color: #3a3a3a;
+    color: #000000;
 }
 
 /* navbar style with drop down menu */
@@ -209,7 +211,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #000000;
     display: none;
     top: 100%;
 }
@@ -229,6 +231,7 @@ nav {
     font-size: 1rem;
 }
 
+/*Social Network Icons */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -257,7 +260,7 @@ nav {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #000000;
     margin: 5px 0;
 }
 
@@ -377,7 +380,7 @@ p {
 /* Media Queries, latops and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #000000;
     }
 
     #photos {
@@ -413,7 +416,7 @@ p {
         margin-bottom: 100px;
     }
     .text-input {
-        max-width: 100%;
+        max-width:100%;
     }
 }
 

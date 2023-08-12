@@ -121,7 +121,7 @@ Using Balsamiq during the planning stage of this build I was able to create wire
 ![wireframe image of mobile view](X)
 
 ## Search Engine Optimization
-In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included `<meta>` tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
+In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included meta tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
 
 ---
 

@@ -234,12 +234,12 @@ If you would like to clone this repository:
 
 ### CSS Validator
 
-I have used the [W3C Css Validation Service]() to validate the CSS code which has passed with no errors;
+I have used the [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/validator) to validate the CSS code which has passed with no errors;<br>
 ![css validation image](assets/images/CSS-validator-pass.webp)
 
 ### HTML Validator
 
-I have used the [W3C HTML Checker]() to validate the HTML code for each page of the website, all passing with no errors;
+I have used the [W3C HTML Checker](https://validator.w3.org/#validate_by_input) to validate the HTML code for each page of the website, all passing with no errors; <br>
 
 #### Home Page
 

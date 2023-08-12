@@ -180,19 +180,18 @@ To provide accessibility to the website the following has been incorporated;
 
 The following technologies have been utilised in the production of this website;
 
-- HTML5
-- CSS
-- Javascript (font awesome)
-- GitHub
-- GitHub Pages
-- Codeanywhere
-- Font Awesome
-- Favicon Generator Website
-- Google Chrome
-- Convertio Website
-- Cloud Convert Website
-- Python
-- AmIResponsive Website
+- HTML5- The core of the website has been built with HTML5
+- CSS- The website styling has been completed using CSS.
+- Javascript- In order to utilise the Font Awesome icons a script had to be added using Javascript.
+- GitHub- Storange and publishing of the website has been done through GitHub.
+- GitHub Pages- The website has been published through GitHub Pages.
+- Codeanywhere- This is the IDE used to edit and push changes for the website.
+- Font Awesome- Icons such as the social media icons were obtained through the Font Awesome website.
+- Favicon Generator Website- I have used this website to generate the favicon code for my chosen image.
+- Google Chrome- The majority of the website testing and building has been done with the assistance of Google Chrome and the Developer Tools.
+- Pixelied.com Website- I have used this website to convert my images from JPEG/PNG to WEBP.
+- Python- Via the terminal in Codeanywhere I have used python3 in order to preview the website used a local http server.
+- AmIResponsive Website- To view overall functionality accross devices I have used the AmIResponsive website.
 
 ## Languages Used
 

@@ -90,6 +90,9 @@ The images chosen for the website have been selected due to their high quality o
 
 Using Balsamiq during the planning stage of this build I was able to create wireframes for each page and mobile view to use as a guide when building the website.
 
+## Search Engine Optimization
+In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included `<meta>` tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
+
 ### Home Page
 
 ![wireframe image of homepage](X)
@@ -238,7 +241,7 @@ When looking for bug solutions I may use of the following;
 ## Media
 
 - The images and video implemented throughout the website have been sourced from [Pexels](https://www.pexels.com/). All content used are royalty free.
-- To create my favicon icon i used a [Favicon Converter](https://favicon.io/favicon-converter/).
+- To create my favicon icon I used a [Favicon Converter](https://favicon.io/favicon-converter/).
 
 ## Acknowledgements
 

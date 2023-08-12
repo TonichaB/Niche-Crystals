@@ -173,7 +173,9 @@ The following technologies have been utilised in the production of this website;
 - Favicon Generator Website
 - Google Chrome
 - Convertio Website
+- Cloud Convert Website
 - Python
+- AmIResponsive Website
 
 ## Languages Used
 
@@ -221,8 +223,23 @@ If you would like to clone this repository:
 
 ## Code Used
 
+When looking for bug solutions I may use of the following;
+
+- As a general guide when completing the readme.md file I have used a [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+- To fix the movement of the navbar on the sign up page I referred to a [Bootstap Forum](https://forum.bootstrapstudio.io/t/vertical-scroll-bar-moves-fixed-nav-bar-to-left/2309)
+- To make the video element more responsive to screensizes I referred to [Stack Overflow](https://stackoverflow.com/questions/20127763/video-100-width-and-height)
+- I found the [Adobe Color](https://color.adobe.com/create/color-accessibility) webpage very useful when determining the best colour scheme.
+
 ## Content
+
+- The content has been written using my own knowledge of crystals.
+- The icons in the footer and within the home page and sign up page were taken from [Font Awesome](https://fontawesome.com/)
 
 ## Media
 
+- The images and video implemented throughout the website have been sourced from [Pexels](https://www.pexels.com/). All content used are royalty free.
+- To create my favicon icon i used a [Favicon Converter](https://favicon.io/favicon-converter/).
+
 ## Acknowledgements
+
+I would like to thank my mentor Luke for his guidance during this project alongside the users of Slack who have built a supportive community and endless source of guidance with each new concept.

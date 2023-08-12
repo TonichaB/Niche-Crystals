@@ -163,7 +163,7 @@ The footer on eage page includes social media links for Facebook, Instagram, Pin
 
 ## Future Implementations
 
-An initial future feature could be further compression or reselection of gallery images to improve the performance levels to be more reliable on devices with varying performance levels. Using the Google Lighthouse Developer Tool I was able to see the webpage performance on the gallery page was less reliable than the other pages on the site.
+An initial future feature could be further compression or reselection of gallery images to improve the performance levels to be more reliable on devices with varying performance levels. Using the Google Lighthouse Developer Tool I was able to see the webpage performance on the gallery page was less reliable than the other pages on the site.<br>
 A broader goal for future implementations would be the inclusion of an Store page allowing the website owner to offer relative products for the user to purchase, such as crystals, jewellry and further reading materials.
 
 ## Accessibility
@@ -255,7 +255,7 @@ I have used the [W3C HTML Checker](https://validator.w3.org/#validate_by_input) 
 
 ### Lighthouse
 
-I have also utilised the Chrome Lighthouse Developer Tool to check the performance of each page of the website. The results are as follows;
+I have utilised the Chrome Lighthouse Developer Tool to check the performance of each page of the website. The results are as follows;
 
 #### Home Page
 
@@ -269,14 +269,14 @@ I have also utilised the Chrome Lighthouse Developer Tool to check the performan
 
 ![signup page lighthouse image](assets/images/sign-up-lighthouse-performance.webp)
 
-Testing was also completed on the following devices to confirm the responsiveness of the site:
+Testing was completed on the following devices to confirm the responsiveness of the site:
 
 - Macbook Pro
 - Lenovo Desktop
 - Samsung S21 FE mobile
 - Ipad Pro
 
-Niche Crystals has also been tested using the following browsers:
+Niche Crystals has been tested using the following browsers:
 
 - Google Chrome
 - Safari

@@ -263,6 +263,12 @@ Testing was also completed on the following devices to confirm the responsivenes
 - Samsung S21 FE mobile
 - Ipad Pro
 
+Niche Crystals has also been tested using the following browsers:
+
+- Google Chrome
+- Safari
+- Firefox
+
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | :---:| :---: | :---: | :---: | :---: |
 |**Navigation Bar**|

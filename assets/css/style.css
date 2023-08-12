@@ -136,8 +136,9 @@ main {
 .text-input {
     background: transparent;
     color: #3a3a3a;
-    width: 200px;
+    width: 100%;
     height: 25px;
+    box-sizing: border-box;
     margin: 5px 0 20px 0;
     border: 1px solid #ffffff;
     border-radius: 2px;
@@ -371,10 +372,6 @@ p {
         column-gap: 0;
     }
 
-
-    .text-input {
-        width: 300px;
-    }
 }
 
 /* Media Queries, latops and larger */
@@ -404,10 +401,6 @@ p {
         display: flex;
         flex-direction: row;
     }
-
-    .text-input {
-        width: 300px;
-    }
 }
 
 /*Media Queries, larger laptop screens */
@@ -419,9 +412,8 @@ p {
     #cover-text {
         margin-bottom: 100px;
     }
-
     .text-input {
-        width: 300px;
+        max-width: 100%;
     }
 }
 

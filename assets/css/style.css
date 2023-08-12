@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #B973AD;
-    overflow-y: scroll;
+    overflow-y: scroll;Beforefff
 
 }
 
@@ -421,7 +421,7 @@ p {
     }
 
     .text-input {
-        width: 200px;
+        width: 300px;
     }
 }
 

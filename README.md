@@ -290,6 +290,22 @@ Niche Crystals has also been tested using the following browsers:
 | Reset Button | Compeleted form should reset and clear all fields | Clicked reset button | Form reset to start | Pass |
 
 ## Bug Fixes
+During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page:
+![cover-text-bug]()
+I was able to fix this using a media query for the larger screens in the style.css file. I used the following code:
+`#cover-text {
+        position: relative;
+        margin-left: 2000px;
+        margin-top: 500px;
+        width: 600px;
+        padding-left: 15px;
+        font-size: 200%;
+        height: 300px;
+    }`
+    Providing the following result:
+![cover-text-solution]()
+
+It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using `overflow-y: scroll;` within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further:
 
 ---
 

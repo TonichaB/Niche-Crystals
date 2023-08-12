@@ -89,25 +89,20 @@ The footer of the site includes social media links that are intended to take the
 ## Colour Scheme
 
 ![colour scheme image](assets/images/colour-scheme-and-accesibility.webp)
-The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also represented in the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
+The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also inspired by the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
 
-## Typogrophy
+## Typography
 
-The Niche Crystals site contains two fonts, Pontano Sans for the header of eage page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are also clear and easy to read to be more accesible for all users. Please see the two fonts shown below;
-![pontano sans font image](assets/images/Pontano-Sans-Font.webp)
+The Niche Crystals site contains two fonts, Pontano Sans for the header of eage page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are also clear and easy to read to be more accesible for all users. Please see the two fonts shown below;<br>
+![pontano sans font image](assets/images/Pontano-Sans-Font.webp)<br>
 ![montserrat font image](assets/images/Montserrat-font.webp)
 
 ## Imagery
-
 The images chosen for the website have been selected due to their high quality on all screen sizes and their relevancy for the website. Most images are included within the gallery page, and have been selected to follow consistent stylings and sizes for a sleek appearance on the page. All images used on the website have also been formatted as WEBP documents as these provide to be 25% to 35% smaller than JPEG files resulting in quicker loading times for the user.
 
 ## Wireframes
 
 Using Balsamiq during the planning stage of this build I was able to create wireframes for each page and mobile view to use as a guide when building the website.
-
-## Search Engine Optimization
-
-In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included `<meta>` tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
 
 ### Home Page
 
@@ -124,6 +119,9 @@ In order to improve the optimization of the website's content relevance, and the
 ### Mobile View
 
 ![wireframe image of mobile view](X)
+
+## Search Engine Optimization
+In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included `<meta>` tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
 
 ---
 
@@ -150,7 +148,7 @@ The Landing Page for Niche Crystals opens with a high quality image of crystals 
 
 ### Gallery Page
 
-The Gallery Page of the website providss users with relevant images laid out in a responsive mosaic tile gallery to show the different ways in which crystals can be used. Towards the end of the page there is also a video showing a crystal being cleansed through the smudging method to give a visual representation on the use of crystals. This page is valuable to the users as it compliments the textual information given from the Landing Page.
+The Gallery Page of the website provides users with relevant images laid out in a responsive mosaic tile gallery to show the different ways in which crystals can be used. Towards the end of the page there is also a video showing a crystal being cleansed through the smudging method to give a visual representation on the use of crystals. This page is valuable to the users as it compliments the textual information given from the Landing Page.
 ![gallery page image](X)
 
 ### Sign Up Page
@@ -306,25 +304,15 @@ Niche Crystals has also been tested using the following browsers:
 
 ## Bug Fixes
 
-During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page:
+During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page: <br>
 ![cover text bug](assets/images/cover-text-bug.webp)
-I was able to fix this using a media query for the larger screens in the style.css file. I used the following code:
-`#cover-text {
-        position: relative;
-        margin-left: 2000px;
-        margin-top: 500px;
-        width: 600px;
-        padding-left: 15px;
-        font-size: 200%;
-        height: 300px;
-    }`
-Providing the following result:
+I was able to fix this using a media query for the larger screens in the style.css file, providing the following result: <br>
 ![cover text solution](assets/images/cover-text-solution.webp)
 
-It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using `overflow-y: scroll;` within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further:
-Before:
-![scrollbar before image](assets/images/scrollbar-before.webp)
-After:
+It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using scroll within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further:<br>
+Before: <br>
+![scrollbar before image](assets/images/scrollbar-before.webp) <br>
+After:<br>
 ![scrollbar after image](assets/images/scrollbar-after.webp)
 
 ---

@@ -420,6 +420,9 @@ p {
         margin-bottom: 100px;
     }
 
+    .text-input {
+        width: 200px;
+    }
 }
 
 /* 4k screens */

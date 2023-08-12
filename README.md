@@ -9,43 +9,58 @@ Niche Crystals is an informative website for users who are interested in the the
 
 ## Contents
 
-- User Experience
-  - User Stories
-- Design
-
-  - Colour Scheme
-  - Typography
-  - Imagery
-  - Wireframes
-
-- Features
-
-  - General Features per Page
-  - Future Implementations
-  - Accessibility
-
-- Technologies Used
-
-  - Languages Used
-  - Frameworks, Libraries and Programs Used
-
-- Deployment and Local Development
-
-  - Deployment
-  - Local Development
-    - How to Fork
-    - How to Clone
-
-- Testing
-
-  - Validators
-  - Bug Fixes
-
-- Credits
-  - Code Used
-  - Content
-  - Media
-  - Acknowledgements
+- [Niche-Crystals](#niche-crystals)
+  - [Contents](#contents)
+  - [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+    - [As a user I would like to learn how crystals are used](#as-a-user-i-would-like-to-learn-how-crystals-are-used)
+    - [The website should be user friendly on all available devices](#the-website-should-be-user-friendly-on-all-available-devices)
+    - [As a user I want additional information on how to introduce new practices and meet like minded people to discuss crystals](#as-a-user-i-want-additional-information-on-how-to-introduce-new-practices-and-meet-like-minded-people-to-discuss-crystals)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typogrophy](#typogrophy)
+  - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
+  - [Search Engine Optimization](#search-engine-optimization)
+    - [Home Page](#home-page)
+    - [Gallery Page](#gallery-page)
+    - [Sign Up Page](#sign-up-page)
+    - [Mobile View](#mobile-view)
+- [Features](#features)
+  - [General Features](#general-features)
+    - [Navigation Bar](#navigation-bar)
+      - [Desktop View](#desktop-view)
+      - [Mobile View](#mobile-view-1)
+    - [Landing Page](#landing-page)
+    - [Gallery Page](#gallery-page-1)
+    - [Sign Up Page](#sign-up-page-1)
+    - [Page Footer](#page-footer)
+  - [Future Implementations](#future-implementations)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+- [Deployment and Local Development](#deployment-and-local-development)
+  - [Deployment](#deployment)
+  - [Local Deployment](#local-deployment)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+  - [Validators](#validators)
+    - [CSS Validator](#css-validator)
+    - [HTML Validator](#html-validator)
+      - [Home Page](#home-page-1)
+      - [Gallery Page](#gallery-page-2)
+      - [Sign Up Page](#sign-up-page-2)
+    - [Lighthouse](#lighthouse)
+      - [Home Page](#home-page-2)
+      - [Gallery Page](#gallery-page-3)
+      - [Sign Up Page](#sign-up-page-3)
+  - [Bug Fixes](#bug-fixes)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -269,27 +284,28 @@ Niche Crystals has also been tested using the following browsers:
 - Safari
 - Firefox
 
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| :---:| :---: | :---: | :---: | :---: |
-|**Navigation Bar**|
-|  |  |  |  |  |
-| Niche Crystals Title | When clicked the user should return to the home page | Clicked title | Redirected to Home Page | Pass |
-| Hamburger Navbar | When selected the navbar should drop down to reveal website pages | Selected Hamburger Icon | Dropdown menu of webpages appears | Pass |
-| Home Page Link | When selected the user will be redirected to the home page |Clicked Link | Redirected to Home Page | Pass |
-| Gallery Page Link | When selected the user will be redirected to the gallery page | Clicked Link | Redirected to Gallery Page | Pass |
-| Sign Up Page Link | When selected the user will be redirected to the sign up page | Clicked Link | Redirected to Sign Up Page | Pass |
-|**Footer**|
-|  |  |  |  |  |
-| Social Icons | When clicked a new tab will open for the appropriate social media page | Clicked Icons | New tab opens for each social media website | Pass |
-|**Embedded Video**|
-|  |  |  |  |  |
-| Embedded Video | Video does not autoplay and can be controlled by user | Clicked play button|Video plays | Pass |
-|**Sign Up Page**|
-|  |  |  |  |  |
-| Sign Up Form | If fields left empty or completed incorrectly a message should notify user of the error | Clicked submit with form in various stages of completeness | Form requested the sections to be correctly completed | Pass |
-| Reset Button | Compeleted form should reset and clear all fields | Clicked reset button | Form reset to start | Pass |
+|       Feature        |                                    Expected Outcome                                     |                     Testing Performed                      |                        Result                         | Pass/Fail |
+| :------------------: | :-------------------------------------------------------------------------------------: | :--------------------------------------------------------: | :---------------------------------------------------: | :-------: |
+|  **Navigation Bar**  |
+|                      |                                                                                         |                                                            |                                                       |           |
+| Niche Crystals Title |                  When clicked the user should return to the home page                   |                       Clicked title                        |                Redirected to Home Page                |   Pass    |
+|   Hamburger Navbar   |            When selected the navbar should drop down to reveal website pages            |                  Selected Hamburger Icon                   |           Dropdown menu of webpages appears           |   Pass    |
+|    Home Page Link    |               When selected the user will be redirected to the home page                |                        Clicked Link                        |                Redirected to Home Page                |   Pass    |
+|  Gallery Page Link   |              When selected the user will be redirected to the gallery page              |                        Clicked Link                        |              Redirected to Gallery Page               |   Pass    |
+|  Sign Up Page Link   |              When selected the user will be redirected to the sign up page              |                        Clicked Link                        |              Redirected to Sign Up Page               |   Pass    |
+|      **Footer**      |
+|                      |                                                                                         |                                                            |                                                       |           |
+|     Social Icons     |         When clicked a new tab will open for the appropriate social media page          |                       Clicked Icons                        |      New tab opens for each social media website      |   Pass    |
+|  **Embedded Video**  |
+|                      |                                                                                         |                                                            |                                                       |           |
+|    Embedded Video    |                  Video does not autoplay and can be controlled by user                  |                    Clicked play button                     |                      Video plays                      |   Pass    |
+|   **Sign Up Page**   |
+|                      |                                                                                         |                                                            |                                                       |           |
+|     Sign Up Form     | If fields left empty or completed incorrectly a message should notify user of the error | Clicked submit with form in various stages of completeness | Form requested the sections to be correctly completed |   Pass    |
+|     Reset Button     |                    Compeleted form should reset and clear all fields                    |                    Clicked reset button                    |                  Form reset to start                  |   Pass    |
 
 ## Bug Fixes
+
 During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page:
 ![cover text bug]()
 I was able to fix this using a media query for the larger screens in the style.css file. I used the following code:
@@ -302,7 +318,7 @@ I was able to fix this using a media query for the larger screens in the style.c
         font-size: 200%;
         height: 300px;
     }`
-    Providing the following result:
+Providing the following result:
 ![cover text solution]()
 
 It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using `overflow-y: scroll;` within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further:
@@ -310,6 +326,7 @@ Before:
 ![scrollbar before image]()
 After:
 ![scrollbar after image]()
+
 ---
 
 # Credits

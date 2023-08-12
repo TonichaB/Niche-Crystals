@@ -106,19 +106,19 @@ Using Balsamiq during the planning stage of this build I was able to create wire
 
 ### Home Page
 
-![wireframe image of homepage](X)
+![wireframe image of homepage](assets/images/Homepage-wireframe.webp)
 
 ### Gallery Page
 
-![wireframe image of gallary page](X)
+![wireframe image of gallary page](assets/images/gallery-wireframe.webp)
 
 ### Sign Up Page
 
-![wireframe image of sign up page](X)
+![wireframe image of sign up page](assets/images/sign-up-wireframe.webp)
 
 ### Mobile View
 
-![wireframe image of mobile view](X)
+![wireframe image of mobile view](assets/images/mobile-wireframe.webp)
 
 ## Search Engine Optimization
 In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included meta tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
@@ -135,31 +135,31 @@ Within the head of the page I've included a responsive navbar changing from text
 
 #### Desktop View
 
-![navbar desktop image](X)
+![navbar desktop image](assets/images/navbar-desktop.webp)
 
 #### Mobile View
 
-![navbar mobile image](X)
+![navbar mobile image](assets/images/navbar-mobile.webp)
 
 ### Landing Page
 
 The Landing Page for Niche Crystals opens with a high quality image of crystals with text overlay as a brief introduction to the site. The user is able to scroll down to view the main content offering information regarding the origins of crystals and their uses. For desktop users the main content is shown with images and text alongside one another and alternating positions for each text subject. Each subject includes a link to the sign up page encouraging users to sign up for more information.
-![landing page image](X)
+![landing page image](assets/images/home-page.webp)
 
 ### Gallery Page
 
 The Gallery Page of the website provides users with relevant images laid out in a responsive mosaic tile gallery to show the different ways in which crystals can be used. Towards the end of the page there is also a video showing a crystal being cleansed through the smudging method to give a visual representation on the use of crystals. This page is valuable to the users as it compliments the textual information given from the Landing Page.
-![gallery page image](X)
+![gallery page image](assets/images/gallery-page.webp)
 
 ### Sign Up Page
 
 The final page of the website includes a sign up form allowing the user to sign up for a monthly newsletter, tailored to them, with further information regarding crystal practices and maintenance. The user can specify how they intend to use crystals alongside submitting their full name and email address to then submit the form. At this time there is no backend service connected to the website as this is not currently withint the scope of this project; with this in mind once a user has completed the form a template formdump page provided by Code Institute. If the form is incorrectly completed pop ups will appear to advise the user of the form requirements.
-![sign up page image](X)
+![sign up page image](assets/images/signup-page.webp)
 
 ### Page Footer
 
 The footer on eage page includes social media links for Facebook, Instagram, Pinterest and Twitter encouraging the user to stay connected through relative social groups. The links will open in a new tab to allow easy navigation for the user and avoiding any progress on the main website being lost.
-![page footer image](X)
+![page footer image](assets/images/footer-image.webp)
 
 ## Future Implementations
 

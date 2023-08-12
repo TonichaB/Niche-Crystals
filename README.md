@@ -309,11 +309,7 @@ During the process of building the website I came across a couple of bugs to be 
 I was able to fix this using a media query for the larger screens in the style.css file, providing the following result: <br>
 ![cover text solution](assets/images/cover-text-solution.webp)
 
-It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using scroll within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further:<br>
-Before: <br>
-![scrollbar before image](assets/images/scrollbar-before.webp) <br>
-After:<br>
-![scrollbar after image](assets/images/scrollbar-after.webp)
+It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using scroll within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further.
 
 ---
 

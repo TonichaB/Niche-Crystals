@@ -53,6 +53,15 @@ main {
     flex-direction: column;
 }
 
+hr {
+    border-top: 1px solid #000000;
+    margin: 5px 0;
+}
+
+p {
+    padding: 20px 20px;
+}
+
 /*Hero Section*/
 
 #hero {
@@ -74,7 +83,7 @@ main {
     padding-left: 10px;
 }
 
-/*homepage content*/
+/*Home Page Content*/
 #history-image {
     margin-top: 50px;
 }
@@ -83,8 +92,53 @@ main {
     margin-top: 50px;
 }
 
-/*gallery page*/
+#introduction {
+    font-size: 200%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+#why-are-crystals-used {
+    line-height: 20px;
+    margin: 20px;
+}
+#how-are-crystals-used {
+    line-height: 20px;
+    margin: 20px;
+}
+
+#circle-cover-bg {
+    background: url("../images/crystals-history.webp") no-repeat top center/cover;
+    height: 50vw;
+    width: 50vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#circle-image-bg {
+    background: url("../images/woman-burning-sage.webp") no-repeat top center/cover;
+    height: 50vw;
+    width: 50vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#history-image,
+#meditation-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Gallery Page*/
+
+/* Photos */
 #photos img {
     width: 100%;
     line-height: 1rem;
@@ -94,6 +148,7 @@ main {
     line-height: 0;
 }
 
+/* Video */
 #video {
     background-color: #B973AD;
     text-align: center;
@@ -179,56 +234,11 @@ main {
     transform: translateY(2px);
 }
 
-/*footer style*/
+/*Footer Style*/
 footer {
     background-color: #F58EA1;
     align-items: flex-end;
     font-family: 'Montserrat', sans-serif;
-}
-
-/* navigation styling */
-
-#menu {
-    letter-spacing: 3px;
-    font-size: 150%;
-    list-style-type: none;
-}
-
-#menu>li {
-    margin-bottom: 1rem;
-}
-
-.active {
-    border-bottom: 1px solid;
-    color: #000000;
-}
-
-/* navbar style with drop down menu */
-
-nav {
-    position: absolute;
-    background-color: #94547E;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #000000;
-    display: none;
-    top: 100%;
-}
-
-/*nav toggle*/
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-
-}
-
-.nav-toggle-label {
-    font-size: 1rem;
 }
 
 /*Social Network Icons */
@@ -246,58 +256,49 @@ nav {
     color: #FFE0C4;
 }
 
-#introduction {
-    font-size: 200%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+/* Navigation Styling */
+
+#menu {
+    letter-spacing: 3px;
+    font-size: 150%;
+    list-style-type: none;
 }
 
-#why-are-crystals-used {
-    line-height: 20px;
-    margin: 20px;
+#menu>li {
+    margin-bottom: 1rem;
 }
 
-hr {
-    border-top: 1px solid #000000;
-    margin: 5px 0;
+.active {
+    border-bottom: 1px solid;
+    color: #000000;
 }
 
-p {
-    padding: 20px 20px;
+/* Navbar Style with Drop Down Menu */
+
+nav {
+    position: absolute;
+    background-color: #94547E;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #000000;
+    display: none;
+    top: 100%;
 }
 
-#how-are-crystals-used {
-    line-height: 20px;
-    margin: 20px;
+/*Nav Toggle*/
+
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-#circle-cover-bg {
-    background: url("../images/crystals-history.webp") no-repeat top center/cover;
-    height: 50vw;
-    width: 50vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+#nav-toggle {
+    display: none;
+
 }
 
-#circle-image-bg {
-    background: url("../images/woman-burning-sage.webp") no-repeat top center/cover;
-    height: 50vw;
-    width: 50vw;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#history-image,
-#meditation-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.nav-toggle-label {
+    font-size: 1rem;
 }
 
 /* Media Queries */
@@ -315,6 +316,7 @@ p {
 /*Media Queries, tablets and larger */
 
 @media screen and (min-width: 768px) {
+    /* Navbar */
     nav {
         display: block;
         position: relative;
@@ -345,12 +347,13 @@ p {
     main {
         margin-top: 67px;
     }
-
+    /* Hero Section */
     #cover-text {
         width: 400px;
         right: 50px;
     }
 
+    /* Home Page */
     #why-are-crystals-used,
     #how-are-crystals-used {
         display: flex;
@@ -370,6 +373,7 @@ p {
 
     }
 
+    /* Gallery */
     #photos {
         column-count: 3;
         column-gap: 0;
@@ -379,19 +383,23 @@ p {
 
 /* Media Queries, latops and larger */
 @media screen and (min-width: 992px) {
+    /* Navbar */
     #menu a:hover {
         border-bottom: 1px solid #000000;
     }
 
+    /* Gallery */
     #photos {
         column-count: 3;
         column-gap: 0;
     }
 
+    /* Sign Up Form */
     #signup-form {
         margin-left: 400px;
     }
 
+    /* Home Page */
     #why-are-crystals-used {
         display: flex;
         flex-direction: row-reverse;
@@ -408,25 +416,30 @@ p {
 
 /*Media Queries, larger laptop screens */
 @media screen and (min-width: 1200px) {
+    /* Sign Up Form */
     #signup-form {
         margin-left: 700px;
     }
 
-    #cover-text {
-        margin-bottom: 100px;
-    }
     .text-input {
         max-width:100%;
+    }
+
+    /* Hero Section */
+    #cover-text {
+        margin-bottom: 100px;
     }
 }
 
 /* 4k screens */
 @media screen and (min-width: 2500px) {
 
+    /* Sign Up Form */
     #signup-form {
         margin-left: 1000px;
     }
 
+    /* Hero Section */
     #cover-text {
         position: relative;
         margin-left: 2000px;

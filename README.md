@@ -61,7 +61,6 @@ Niche Crystals is an informative website for users who are interested in the the
   - [Content](#content)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
-
 ---
 
 ## User Experience
@@ -98,6 +97,7 @@ The Niche Crystals site contains two fonts, Pontano Sans for the header of eage 
 ![montserrat font image](assets/images/Montserrat-font.webp)
 
 ## Imagery
+
 The images chosen for the website have been selected due to their high quality on all screen sizes and their relevancy for the website. Most images are included within the gallery page, and have been selected to follow consistent stylings and sizes for a sleek appearance on the page. All images used on the website have also been formatted as WEBP documents as these provide to be 25% to 35% smaller than JPEG files resulting in quicker loading times for the user.
 
 ## Wireframes
@@ -258,7 +258,7 @@ I have utilised the Chrome Lighthouse Developer Tool to check the performance of
 
 #### Home Page
 
-![home page lighthouse image](assets/images/index-page-lighthouse-performance.webp)
+![home page lighthouse image](assets/images/home-page-lighthouse-performance.webp)
 
 #### Gallery Page
 
@@ -266,7 +266,7 @@ I have utilised the Chrome Lighthouse Developer Tool to check the performance of
 
 #### Sign Up Page
 
-![signup page lighthouse image](assets/images/sign-up-lighthouse-performance.webp)
+![signup page lighthouse image](assets/images/signup-lighthouse-performance.webp)
 
 Testing was completed on the following devices to confirm the responsiveness of the site:
 
@@ -304,9 +304,9 @@ Niche Crystals has been tested using the following browsers:
 ## Bug Fixes
 
 During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page: <br>
-![cover text bug](assets/images/cover-text-bug.webp)
+![cover text bug](assets/images/cover-text-bug.webp) <br>
 I was able to fix this using a media query for the larger screens in the style.css file, providing the following result: <br>
-![cover text solution](assets/images/cover-text-solution.webp)
+![cover text solution](assets/images/cover-text-solution.webp) <br>
 
 It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using scroll within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further.
 

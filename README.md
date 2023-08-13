@@ -2,7 +2,7 @@
 
 Visit the live website [here!](https://tonichab.github.io/Niche-Crystals/)
 
-Niche Crystals is an informative website for users who are interested in the theory of crystal healing and the history of their uses. The website aims to provide a sense of comfort and calm to it's users whilst providing an initial introduction to crystal practices. Users are then encouraged to sign up for a newsletter which will give more in depth information on a monthly basis.
+Niche Crystals is an informative website for users who are interested in the theory of crystal healing and the history of their uses. The website aims to provide a sense of comfort and calm to its users whilst providing an initial introduction to crystal practices. Users are then encouraged to sign up for a newsletter which will give more in depth information every month.
 ![responsive website example image](assets/images/amiresponsive.webp)
 
 ---
@@ -18,7 +18,7 @@ Niche Crystals is an informative website for users who are interested in the the
     - [As a user I want additional information on how to introduce new practices and meet like minded people to discuss crystals](#as-a-user-i-want-additional-information-on-how-to-introduce-new-practices-and-meet-like-minded-people-to-discuss-crystals)
 - [Design](#design)
   - [Colour Scheme](#colour-scheme)
-  - [Typogrophy](#typogrophy)
+  - [Typography](#typography)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
   - [Search Engine Optimization](#search-engine-optimization)
@@ -71,15 +71,15 @@ The target audience for Niche Crystals is individuals wanting to find more infor
 
 ### As a user I would like to learn how crystals are used
 
-The homepage of the Niche Crystals site offers an initial overview of the different practices wherein crystals are used, alongside listing individual properties of the more commonly known crystals. Accompanying this the Gallery page offers images of crystals being used in meditation, crystal readings and jewellry to give a pleasing visual of the potential uses of crystals for mindfulness.
+The homepage of the Niche Crystals site offers an initial overview of the different practices wherein crystals are used, alongside listing individual properties of the more commonly known crystals. Accompanying this the Gallery page offers images of crystals being used in meditation, crystal readings and jewellery to give a pleasing visual of the potential uses of crystals for mindfulness.
 
 ### The website should be user friendly on all available devices
 
-Through the use of media queries within the CSS code, the website is adaptable to all screensizes from mobile view to larger desktop screens. The use of flexbox has allowed for the adjustments of elements on each page ensuring a smooth flow of information in either columns or row formats as applicable. For smaller screen sizes the navigation bar has been adjusted to a dropdown option to create a more user friendly experience and ease of navigation through each page of the site.
+Through the use of media queries within the CSS code, the website is adaptable to all screensizes from mobile view to larger desktop screens. The use of Flexbox has allowed for the adjustments of elements on each page ensuring a smooth flow of information in either columns or row formats as applicable. For smaller screen sizes the navigation bar has been adjusted to a dropdown option to create a more user friendly experience and ease of navigation through each page of the site.
 
 ### As a user I want additional information on how to introduce new practices and meet like minded people to discuss crystals
 
-The footer of the site includes social media links that are intended to take the user to a group page they can join as an initial pathway to learn more. The final page also includes an easy to complete sign up form for a monthly newsletter containing more information about crystals and upcoming events accross the UK. The sign up form asks the user how they hope crystals can help them to allow for personalisation of the newsletters to ensure future content is user specific.
+The footer of the site includes social media links that are intended to take the user to a group page they can join as an initial pathway to learn more. The final page also includes an easy to complete sign up form for a monthly newsletter containing more information about crystals and upcoming events across the UK. The sign-up form asks the user how they hope crystals can help them to allow for personalisation of the newsletters to ensure future content is user-specific.
 
 ---
 
@@ -89,17 +89,17 @@ The footer of the site includes social media links that are intended to take the
 
 ![colour scheme image](assets/images/colour-scheme-and-accesibility.webp)
 ![colour scheme rgb codes](assets/images/colour-scheme-rbg-codes.webp)
-The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also inspired by the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
+The colour scheme has been inspired by crystals in particular amethyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also inspired by the favicon icon for the website to create consistency for the branded image. Text is either in black or white depending on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
 
 ## Typography
 
-The Niche Crystals site contains two fonts, Pontano Sans for the header of eage page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are also clear and easy to read to be more accesible for all users. Please see the two fonts shown below;<br>
+The Niche Crystals site contains two fonts, Pontano Sans for the header of each page, and Montserrat for the body of the pages. I have chosen these two font types as they do not contradict one another and create a consistent styling for the website. Both fonts are clear and easy to read to be more accessible for all users. Please see the two fonts shown below;<br>
 ![pontano sans font image](assets/images/Pontano-Sans-Font.webp)<br>
 ![montserrat font image](assets/images/Montserrat-font.webp)
 
 ## Imagery
 
-The images chosen for the website have been selected due to their high quality on all screen sizes and their relevancy for the website. Most images are included within the gallery page, and have been selected to follow consistent stylings and sizes for a sleek appearance on the page. All images used on the website have also been formatted as WEBP documents as these provide to be 25% to 35% smaller than JPEG files resulting in quicker loading times for the user.
+The images chosen for the website have been selected due to their high quality on all screen sizes and their relevance for the website. Most images are included within the gallery page, and have been selected to follow consistent stylings and sizes for a sleek appearance on the page. All images used on the website have also been formatted as WEBP documents as these prove to be 25% to 35% smaller than JPEG files resulting in quicker loading times for the user.
 
 ## Wireframes
 
@@ -122,7 +122,7 @@ Using Balsamiq during the planning stage of this build I was able to create wire
 ![wireframe image of mobile view](assets/images/mobile-wireframe.webp)
 
 ## Search Engine Optimization
-In order to improve the optimization of the website's content relevance, and the quality and quantity of website traffic I have included meta tags within the head elements. These tags will create the small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
+In order to improve the optimisation of the website's content relevance, and the quality and quantity of website traffic I have included meta tags within the head elements. These tags will create a small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
 
 ---
 
@@ -132,7 +132,7 @@ In order to improve the optimization of the website's content relevance, and the
 
 ### Navigation Bar
 
-Within the head of the page I've included a responsive navbar changing from text in desktop view to a hamburger menu drop down in mobile view. The navbar shows the current page by underlining the relevant text with a lighter font colour.
+Within the head of the page I've included a responsive navbar changing from text in desktop view to a hamburger menu drop-down in mobile view. The navbar shows the current page by underlining the relevant text.
 
 #### Desktop View
 
@@ -144,17 +144,17 @@ Within the head of the page I've included a responsive navbar changing from text
 
 ### Landing Page
 
-The Landing Page for Niche Crystals opens with a high quality image of crystals with text overlay as a brief introduction to the site. The user is able to scroll down to view the main content offering information regarding the origins of crystals and their uses. For desktop users the main content is shown with images and text alongside one another and alternating positions for each text subject. Each subject includes a link to the sign up page encouraging users to sign up for more information.
+The Landing Page for Niche Crystals opens with a high quality image of crystals with text overlay as a brief introduction to the site. The user can scroll down to view the main content offering information regarding the origins of crystals and their uses. For desktop users, the main content is shown with images and text alongside one another and alternating positions for each text subject. Each subject includes a link to the sign up page encouraging users to sign up for more information.
 ![landing page image](assets/images/home-page.webp)
 
 ### Gallery Page
 
-The Gallery Page of the website provides users with relevant images laid out in a responsive mosaic tile gallery to show the different ways in which crystals can be used. Towards the end of the page there is also a video showing a crystal being cleansed through the smudging method to give a visual representation on the use of crystals. This page is valuable to the users as it compliments the textual information given from the Landing Page.
+The Gallery Page of the website provides users with relevant images laid out in a responsive mosaic tile gallery to show the different ways in which crystals can be used. Towards the end of the page, there is also a video showing a crystal being cleansed through the smudging method to give a visual representation on the use of crystals. This page is valuable to the users as it compliments the textual information given on the Landing Page.
 ![gallery page image](assets/images/gallery-page.webp)
 
 ### Sign Up Page
 
-The final page of the website includes a sign up form allowing the user to sign up for a monthly newsletter, tailored to them, with further information regarding crystal practices and maintenance. The user can specify how they intend to use crystals alongside submitting their full name and email address to then submit the form. At this time there is no backend service connected to the website as this is not currently withint the scope of this project; with this in mind once a user has completed the form a template formdump page provided by Code Institute. If the form is incorrectly completed pop ups will appear to advise the user of the form requirements.
+The final page of the website includes a sign-up form allowing the user to sign up for a monthly newsletter, tailored to them, with further information regarding crystal practices and maintenance. The user can specify how they intend to use crystals alongside submitting their full name and email address to then submit the form. At this time there is no backend service connected to the website as this is not currently withint the scope of this project; with this in mind once a user has completed the form a template formdump page provided by Code Institute. If the form is incorrectly completed pop ups will appear to advise the user of the form requirements.
 ![sign up page image](assets/images/signup-page.webp)
 
 ### Page Footer
@@ -165,7 +165,7 @@ The footer on eage page includes social media links for Facebook, Instagram, Pin
 ## Future Implementations
 
 An initial future feature could be further compression or reselection of gallery images to improve the performance levels to be more reliable on devices with varying performance levels. Using the Google Lighthouse Developer Tool I was able to see the webpage performance on the gallery page was less reliable than the other pages on the site.<br>
-A broader goal for future implementations would be the inclusion of an Store page allowing the website owner to offer relative products for the user to purchase, such as crystals, jewellry and further reading materials.
+A broader goal for future implementations would be the inclusion of a Store page allowing the website owner to offer relative products for the user to purchase, such as crystals, jewellery and further reading materials.
 
 ## Accessibility
 
@@ -173,7 +173,7 @@ To provide accessibility to the website the following has been incorporated;
 
 - Aria-labels, alt tags and labels have been used for supportive technologies such as screen readers.
 - Semantic elements have been used for easy navigation through each page.
-- The colour scheme selected is also made suitable for colour blind users.
+- The colour scheme selected is also made suitable for colour-blind users.
 
 ---
 
@@ -184,15 +184,15 @@ The following technologies have been utilised in the production of this website;
 - HTML5- The core of the website has been built with HTML5
 - CSS- The website styling has been completed using CSS.
 - Javascript- In order to utilise the Font Awesome icons a script had to be added using Javascript.
-- GitHub- Storange and publishing of the website has been done through GitHub.
+- GitHub- Storage and publishing of the website has been done through GitHub.
 - GitHub Pages- The website has been published through GitHub Pages.
 - Codeanywhere- This is the IDE used to edit and push changes for the website.
 - Font Awesome- Icons such as the social media icons were obtained through the Font Awesome website.
 - Favicon Generator Website- I have used this website to generate the favicon code for my chosen image.
 - Google Chrome- The majority of the website testing and building has been done with the assistance of Google Chrome and the Developer Tools.
 - Pixelied.com Website- I have used this website to convert my images from JPEG/PNG to WEBP.
-- Python- Via the terminal in Codeanywhere I have used python3 in order to preview the website used a local http server.
-- AmIResponsive Website- To view overall functionality accross devices I have used the AmIResponsive website.
+- Python- Via the terminal in Codeanywhere I have used python3 in order to preview the website using a local HTTP server.
+- AmIResponsive Website- To view overall functionality across devices I have used the AmIResponsive website.
 
 ## Languages Used
 
@@ -204,7 +204,7 @@ HTML, CSS, Javascript
 
 ## Deployment
 
-Niche Crystals has been deployed onto Git Pages.
+The Niche Crystals site has been deployed onto Git Pages.
 
 ## Local Deployment
 
@@ -276,7 +276,7 @@ Testing was completed on the following devices to confirm the responsiveness of 
 - Samsung S21 FE mobile
 - Ipad Pro
 
-Niche Crystals has been tested using the following browsers:
+The Niche Crystals site has been tested using the following browsers:
 
 - Google Chrome
 - Safari
@@ -299,17 +299,17 @@ Niche Crystals has been tested using the following browsers:
 |    Embedded Video    |                  Video does not autoplay and can be controlled by user                  |                    Clicked play button                     |                      Video plays                      |   Pass    |
 |   **Sign Up Page**   |
 |                      |                                                                                         |                                                            |                                                       |           |
-|     Sign Up Form     | If fields left empty or completed incorrectly a message should notify user of the error | Clicked submit with form in various stages of completeness | Form requested the sections to be correctly completed |   Pass    |
+|     Sign Up Form     | If fields left empty or completed incorrectly a message should notify the user of the error | Clicked submit with form in various stages of completeness | Form requested the sections to be correctly completed |   Pass    |
 |     Reset Button     |                    Compeleted form should reset and clear all fields                    |                    Clicked reset button                    |                  Form reset to start                  |   Pass    |
 
 ## Bug Fixes
 
-During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page: <br>
+During the process of building the website I came across a couple of bugs to be fixed. The first bug occured when changing the display size of the website to a 4k (2560px x 1856px) view. As shown below, on the home page the cover text has shifted position to lower on the page: <br>
 ![cover text bug](assets/images/cover-text-bug.webp) <br>
 I was able to fix this using a media query for the larger screens in the style.css file, providing the following result: <br>
 ![cover text solution](assets/images/cover-text-solution.webp) <br>
 
-It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using scroll within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar moving further.
+It also became apparent at one stage that the navigation bar was shifting right when changing to the sign up page. I realised this was a result of the scrollbar not being required for the signup page, dissapearing, and the page shifting to the right to fill space. Using scroll within the body css styling I was able to fix the scrollbar into place on all pages which prevented the navigation bar from moving further.
 
 ---
 
@@ -317,21 +317,21 @@ It also became apparent at one stage that the navigation bar was shifting right 
 
 ## Code Used
 
-When looking for bug solutions I may use of the following;
+When looking for bug solutions I made use of the following;
 
 - As a general guide when completing the readme.md file I have used a [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 - To fix the movement of the navbar on the sign up page I referred to a [Bootstap Forum](https://forum.bootstrapstudio.io/t/vertical-scroll-bar-moves-fixed-nav-bar-to-left/2309)
-- To make the video element more responsive to screensizes I referred to [Stack Overflow](https://stackoverflow.com/questions/20127763/video-100-width-and-height)
+- To make the video element more responsive to screen sizes I referred to [Stack Overflow](https://stackoverflow.com/questions/20127763/video-100-width-and-height)
 - I found the [Adobe Color](https://color.adobe.com/create/color-accessibility) webpage very useful when determining the best colour scheme.
 
 ## Content
 
-- The content has been written using my own knowledge of crystals.
+- The content has been written using my knowledge of crystals.
 - The icons in the footer and within the home page and sign up page were taken from [Font Awesome](https://fontawesome.com/)
 
 ## Media
 
-- The images and video implemented throughout the website have been sourced from [Pexels](https://www.pexels.com/). All content used are royalty free.
+- The images and video implemented throughout the website have been sourced from [Pexels](https://www.pexels.com/). All content used is royalty free.
 - To create my favicon icon I used a [Favicon Converter](https://favicon.io/favicon-converter/).
 
 ## Acknowledgements

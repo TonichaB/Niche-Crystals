@@ -88,6 +88,7 @@ The footer of the site includes social media links that are intended to take the
 ## Colour Scheme
 
 ![colour scheme image](assets/images/colour-scheme-and-accesibility.webp)
+![colour scheme rgb codes](assets/images/colour-scheme-rbg-codes.webp)
 The colour scheme has been inspired by crystals in particular amathyst crystals, with the various purple and pink tones making up the majority of the website. These colours are also inspired by the favicon icon for the website to create consistency for the branded image. Text is either in black or white dependant on the background for contrast and easier reading for the user. Using the Adobe Color Accessibility Tools the colour scheme is also confirmed to be suitable for colour blind users.
 
 ## Typography

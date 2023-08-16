@@ -104,6 +104,7 @@ p {
     line-height: 20px;
     margin: 20px;
 }
+
 #how-are-crystals-used {
     line-height: 20px;
     margin: 20px;
@@ -316,6 +317,7 @@ nav {
 /*Media Queries, tablets and larger */
 
 @media screen and (min-width: 768px) {
+
     /* Navbar */
     nav {
         display: block;
@@ -347,6 +349,7 @@ nav {
     main {
         margin-top: 67px;
     }
+
     /* Hero Section */
     #cover-text {
         width: 400px;
@@ -383,6 +386,7 @@ nav {
 
 /* Media Queries, latops and larger */
 @media screen and (min-width: 992px) {
+
     /* Navbar */
     #menu a:hover {
         border-bottom: 1px solid #000000;
@@ -416,13 +420,14 @@ nav {
 
 /*Media Queries, larger laptop screens */
 @media screen and (min-width: 1200px) {
+
     /* Sign Up Form */
     #signup-form {
         margin-left: 700px;
     }
 
     .text-input {
-        max-width:100%;
+        max-width: 100%;
     }
 
     /* Hero Section */

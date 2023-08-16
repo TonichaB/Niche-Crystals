@@ -21,11 +21,11 @@ Niche Crystals is an informative website for users who are interested in the the
   - [Typography](#typography)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
-  - [Search Engine Optimization](#search-engine-optimization)
     - [Home Page](#home-page)
     - [Gallery Page](#gallery-page)
     - [Sign Up Page](#sign-up-page)
     - [Mobile View](#mobile-view)
+  - [Search Engine Optimization](#search-engine-optimization)
 - [Features](#features)
   - [General Features](#general-features)
     - [Navigation Bar](#navigation-bar)
@@ -37,6 +37,10 @@ Niche Crystals is an informative website for users who are interested in the the
     - [Page Footer](#page-footer)
   - [Future Implementations](#future-implementations)
   - [Accessibility](#accessibility)
+    - [Home Page](#home-page-1)
+    - [Gallery Page](#gallery-page-2)
+    - [Sign Up Page](#sign-up-page-2)
+  - [](#)
 - [Technologies Used](#technologies-used)
   - [Languages Used](#languages-used)
 - [Deployment and Local Development](#deployment-and-local-development)
@@ -48,13 +52,13 @@ Niche Crystals is an informative website for users who are interested in the the
   - [Validators](#validators)
     - [CSS Validator](#css-validator)
     - [HTML Validator](#html-validator)
-      - [Home Page](#home-page-1)
-      - [Gallery Page](#gallery-page-2)
-      - [Sign Up Page](#sign-up-page-2)
-    - [Lighthouse](#lighthouse)
       - [Home Page](#home-page-2)
       - [Gallery Page](#gallery-page-3)
       - [Sign Up Page](#sign-up-page-3)
+    - [Lighthouse](#lighthouse)
+      - [Home Page](#home-page-3)
+      - [Gallery Page](#gallery-page-4)
+      - [Sign Up Page](#sign-up-page-4)
   - [Bug Fixes](#bug-fixes)
 - [Credits](#credits)
   - [Code Used](#code-used)
@@ -330,6 +334,8 @@ It also became apparent at one stage that the navigation bar was shifting right 
 # Credits
 
 ## Code Used
+
+I would like to acknowledge Code Institute and their Full Stack Development course which has assisted me in building the site.
 
 When looking for bug solutions I made use of the following;
 

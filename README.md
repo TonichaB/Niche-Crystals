@@ -177,7 +177,7 @@ To provide accessibility to the website the following has been incorporated;
 - Semantic elements have been used for easy navigation through each page.
 - The colour scheme selected is also made suitable for colour-blind users as shown in the design section above.
 
-I have also carried out accessibility checks using the WAVE Chrome Extension which has confirmed no errors accessibility. Please see the below results for each page; <br>
+I have also carried out accessibility checks using the WAVE Chrome Extension which has confirmed no accessibility errors. Please see the below results for each page; <br>
 
 ### Home Page
 

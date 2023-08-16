@@ -61,6 +61,7 @@ Niche Crystals is an informative website for users who are interested in the the
   - [Content](#content)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
+
 ---
 
 ## User Experience
@@ -122,6 +123,7 @@ Using Balsamiq during the planning stage of this build I was able to create wire
 ![wireframe image of mobile view](assets/images/mobile-wireframe.webp)
 
 ## Search Engine Optimization
+
 In order to improve the optimisation of the website's content relevance, and the quality and quantity of website traffic I have included meta tags within the head elements. These tags will create a small description for the website when coming up within the output of a search engine, alongside the addition of keywords to increase the ranking of the website on the search engine's output.
 
 ---
@@ -175,17 +177,19 @@ To provide accessibility to the website the following has been incorporated;
 - Semantic elements have been used for easy navigation through each page.
 - The colour scheme selected is also made suitable for colour-blind users as shown in the design section above.
 
-I have also carried out accessibility checks using the WAVE Chrome Extension which has confirmed no errors. Please see the below results for each page; <br>
+I have also carried out accessibility checks using the WAVE Chrome Extension which has confirmed no errors accessibility. Please see the below results for each page; <br>
 
 ### Home Page
+
 ![WAVE home page image](assets/images/WAVE-accessibility-homepage.webp)
 
 ### Gallery Page
+
 ![WAVE gallery page image](assets/images/WAVE-accessibility-gallery.webp)
 
 ### Sign Up Page
-![Wave sign-up page image](assets/images/WAVE-accessibility-signup.webp)
----
+
+## ![Wave sign-up page image](assets/images/WAVE-accessibility-signup.webp)
 
 # Technologies Used
 
@@ -292,25 +296,25 @@ The Niche Crystals site has been tested using the following browsers:
 - Safari
 - Firefox
 
-|       Feature        |                                    Expected Outcome                                     |                     Testing Performed                      |                        Result                         | Pass/Fail |
-| :------------------: | :-------------------------------------------------------------------------------------: | :--------------------------------------------------------: | :---------------------------------------------------: | :-------: |
+|       Feature        |                                      Expected Outcome                                       |                     Testing Performed                      |                        Result                         | Pass/Fail |
+| :------------------: | :-----------------------------------------------------------------------------------------: | :--------------------------------------------------------: | :---------------------------------------------------: | :-------: |
 |  **Navigation Bar**  |
-|                      |                                                                                         |                                                            |                                                       |           |
-| Niche Crystals Title |                  When clicked the user should return to the home page                   |                       Clicked title                        |                Redirected to Home Page                |   Pass    |
-|   Hamburger Navbar   |            When selected the navbar should drop down to reveal website pages            |                  Selected Hamburger Icon                   |           Dropdown menu of webpages appears           |   Pass    |
-|    Home Page Link    |               When selected the user will be redirected to the home page                |                        Clicked Link                        |                Redirected to Home Page                |   Pass    |
-|  Gallery Page Link   |              When selected the user will be redirected to the gallery page              |                        Clicked Link                        |              Redirected to Gallery Page               |   Pass    |
-|  Sign Up Page Link   |              When selected the user will be redirected to the sign up page              |                        Clicked Link                        |              Redirected to Sign Up Page               |   Pass    |
+|                      |                                                                                             |                                                            |                                                       |           |
+| Niche Crystals Title |                    When clicked the user should return to the home page                     |                       Clicked title                        |                Redirected to Home Page                |   Pass    |
+|   Hamburger Navbar   |              When selected the navbar should drop down to reveal website pages              |                  Selected Hamburger Icon                   |           Dropdown menu of webpages appears           |   Pass    |
+|    Home Page Link    |                 When selected the user will be redirected to the home page                  |                        Clicked Link                        |                Redirected to Home Page                |   Pass    |
+|  Gallery Page Link   |                When selected the user will be redirected to the gallery page                |                        Clicked Link                        |              Redirected to Gallery Page               |   Pass    |
+|  Sign Up Page Link   |                When selected the user will be redirected to the sign up page                |                        Clicked Link                        |              Redirected to Sign Up Page               |   Pass    |
 |      **Footer**      |
-|                      |                                                                                         |                                                            |                                                       |           |
-|     Social Icons     |         When clicked a new tab will open for the appropriate social media page          |                       Clicked Icons                        |      New tab opens for each social media website      |   Pass    |
+|                      |                                                                                             |                                                            |                                                       |           |
+|     Social Icons     |           When clicked a new tab will open for the appropriate social media page            |                       Clicked Icons                        |      New tab opens for each social media website      |   Pass    |
 |  **Embedded Video**  |
-|                      |                                                                                         |                                                            |                                                       |           |
-|    Embedded Video    |                  Video does not autoplay and can be controlled by user                  |                    Clicked play button                     |                      Video plays                      |   Pass    |
+|                      |                                                                                             |                                                            |                                                       |           |
+|    Embedded Video    |                    Video does not autoplay and can be controlled by user                    |                    Clicked play button                     |                      Video plays                      |   Pass    |
 |   **Sign Up Page**   |
-|                      |                                                                                         |                                                            |                                                       |           |
+|                      |                                                                                             |                                                            |                                                       |           |
 |     Sign Up Form     | If fields left empty or completed incorrectly a message should notify the user of the error | Clicked submit with form in various stages of completeness | Form requested the sections to be correctly completed |   Pass    |
-|     Reset Button     |                    Compeleted form should reset and clear all fields                    |                    Clicked reset button                    |                  Form reset to start                  |   Pass    |
+|     Reset Button     |                      Compeleted form should reset and clear all fields                      |                    Clicked reset button                    |                  Form reset to start                  |   Pass    |
 
 ## Bug Fixes
 

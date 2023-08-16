@@ -173,8 +173,18 @@ To provide accessibility to the website the following has been incorporated;
 
 - Aria-labels, alt tags and labels have been used for supportive technologies such as screen readers.
 - Semantic elements have been used for easy navigation through each page.
-- The colour scheme selected is also made suitable for colour-blind users.
+- The colour scheme selected is also made suitable for colour-blind users as shown in the design section above.
 
+I have also carried out accessibility checks using the WAVE Chrome Extension which has confirmed no errors. Please see the below results for each page; <br>
+
+### Home Page
+![WAVE home page image](assets/images/WAVE-accessibility-homepage.webp)
+
+### Gallery Page
+![WAVE gallery page image](assets/images/WAVE-accessibility-gallery.webp)
+
+### Sign Up Page
+![Wave sign-up page image](assets/images/WAVE-accessibility-signup.webp)
 ---
 
 # Technologies Used
